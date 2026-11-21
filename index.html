@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Tienda Online - Inicio</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a class="logo" href="./index.html">
+          <img src="https://uploads.onecompiler.io/457hr62ux/458atquu9/logo.png" alt="Logo de la tienda online" />
+        </a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono" aria-label="Ver carrito">
+              🛒 <span id="contador-carrito" aria-live="polite"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="inicio">
+        <h1>Te damos la bienvenida a la tienda</h1>
+        <p class="parrafo">
+          Descubrí una nueva experiencia de compra en nuestra tienda en línea,
+          donde la calidad y la satisfacción del cliente son nuestra prioridad.
+          Explora nuestra amplia gama de productos cuidadosamente seleccionados
+          para satisfacer tus necesidades y gustos.
+        </p>
+        </div>
+        <!--👉 Agregado un id al div -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Gracias por visitar nuestra tienda online.</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="https://uploads.onecompiler.io/457hr62ux/458atquu9/whatsapp.png" alt="logo-whatsapp" /></li>
+          <li><img src="https://uploads.onecompiler.io/457hr62ux/458atquu9/instagram.png" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--👉 Agregado type module y el enlace al js/index.js -->
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

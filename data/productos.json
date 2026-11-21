@@ -1,0 +1,75 @@
+[
+  { 
+    "id": "1",
+    "nombre": "Caja de cartón para empanadas",
+    "img": "img/caja-para-empanadas.jpeg",
+    "descripcion": { 
+      "desc1": "Caja de cartón para empanadas",
+      "desc2": "Pack x 100",
+      "disponible": "",
+      "caracteristicas": [],
+      "medidas": []
+    },
+    "precio": 35000
+  },
+  { 
+    "id": "2",
+    "nombre": "Estuches Para Papas Fritas Pack x 100",
+    "img": "img/estuche-de-carton.jpg",
+    "descripcion": { 
+      "desc1": "Estuches de carton para Papas Fritas",
+      "desc2": "Pack x 100",
+      "disponible": "",
+      "caracteristicas": [],
+      "medidas": []
+    },
+    "precio": 13000
+  },
+  { 
+    "id": "3",
+    "nombre": "Bandejas estuche plastico con y/o sin tapa",
+    "img": "img/bandeja-plastica.jpg",
+    "descripcion": { 
+      "desc1": "Bandejas Estuche Plástico Premium con Tapa",
+      "desc2": "Pack x 100",
+      "disponible": "",
+      "caracteristicas": [ 
+        "Excelente resistencia al impacto",
+        "Excelentes propiedades mecánicas (punzonado)",
+        "Excelente resistencia térmica (100 °C)",
+        "Esterilizable", 
+        "Muy buena resistencia química",
+        "Alta barrera al vapor de agua",
+        "Alta transparencia",
+        "Baja densidad: 0,92 g/cm³",
+        "Apto para microondas",
+        "Reciclable"
+      ],
+      "medidas": []
+    },
+    "precio": 45000
+  },
+  { 
+    "id": "4",
+    "nombre": "Bandeja Plástica",
+    "img": "img/bandeja-plastico-premium.jpg",
+    "descripcion": { 
+      "desc1": "Bandejas Plásticas Descartables Cotnyl PE",
+      "desc2": "Prácticas y funcionales, estas bandejas descartables plásticas son ideales para el almacenamiento, transporte y presentación de alimentos preparados. Fabricadas con material reciclable y aptas para microondas, permiten calentar y conservar los alimentos según las indicaciones de uso del fabricante. Disponibles en packs de 100 unidades, se adaptan a una amplia variedad de usos en delivery, take away, catering, rotiserías y supermercados.",
+      "disponible": "Tapa disponible",
+      "caracteristicas": [
+        "Producto descartable.",
+        "Sin tapa: se vende por separado.",
+        "Pack de 100 unidades.",
+        "Material reciclable.",
+        "Apto para microondas, según indicaciones del fabricante."
+      ],
+      "medidas": [
+        { "modelo": "Modelo 102:", "detalle": " 150 × 115 × 45 mm — 410 ml." },
+        { "modelo": "Modelo 103:", "detalle": " 178 × 140 × 45 mm — 665 ml." },
+        { "modelo": "Modelo 105 Oval:", "detalle": " 240 × 170 × 40 mm — 950 ml." }
+      ]
+    },
+    "precio": 18000
+  }
+]
